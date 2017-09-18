@@ -32,6 +32,24 @@
 		6AEC61631821D19D00B6DB37 /* CTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC61601821D19D00B6DB37 /* CTFeedbackViewController.m */; };
 		6AEC61861821FBF800B6DB37 /* CTFeedbackLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AEC61841821FBF800B6DB37 /* CTFeedbackLocalizable.strings */; };
 		6AEC61871821FBF800B6DB37 /* CTFeedbackLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AEC61841821FBF800B6DB37 /* CTFeedbackLocalizable.strings */; };
+		8810A7211F6F88700076AC9C /* CTFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 8810A71F1F6F88700076AC9C /* CTFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8810A7251F6F89C20076AC9C /* CTFeedbackViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC615F1821D19D00B6DB37 /* CTFeedbackViewController.h */; };
+		8810A7261F6F89C20076AC9C /* CTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC61601821D19D00B6DB37 /* CTFeedbackViewController.m */; };
+		8810A7271F6F89C20076AC9C /* CTFeedbackCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F554C18222FB400217253 /* CTFeedbackCell.h */; };
+		8810A7281F6F89C20076AC9C /* CTFeedbackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F554D18222FB400217253 /* CTFeedbackCell.m */; };
+		8810A7291F6F89C20076AC9C /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876438D25C52E9455F30EB /* CTFeedbackCellItem.m */; };
+		8810A72A1F6F89C20076AC9C /* CTFeedbackCellItem.h in Sources */ = {isa = PBXBuildFile; fileRef = CB8767F3272405CCC42F1755 /* CTFeedbackCellItem.h */; };
+		8810A72B1F6F89C20076AC9C /* CTFeedbackTopicsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F55501823243300217253 /* CTFeedbackTopicsViewController.h */; };
+		8810A72C1F6F89C20076AC9C /* CTFeedbackTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F55511823243300217253 /* CTFeedbackTopicsViewController.m */; };
+		8810A72D1F6F89C20076AC9C /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876691CB3B7AC00E58896D /* NSBundle+CTFeedback.m */; };
+		8810A72E1F6F89C20076AC9C /* NSBundle+CTFeedback.h in Sources */ = {isa = PBXBuildFile; fileRef = CB876BD696F2B66A829AA415 /* NSBundle+CTFeedback.h */; };
+		8810A72F1F6F89C20076AC9C /* PlatformNames.plist in Sources */ = {isa = PBXBuildFile; fileRef = F83DBCDA18F5C44300C0B601 /* PlatformNames.plist */; };
+		8810A7301F6F89C20076AC9C /* CTFeedback.h in Sources */ = {isa = PBXBuildFile; fileRef = 8810A71F1F6F88700076AC9C /* CTFeedback.h */; };
+		8810A7311F6F89C20076AC9C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8810A7201F6F88700076AC9C /* Info.plist */; };
+		8810A7361F6F89D20076AC9C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3F555418232A0600217253 /* MessageUI.framework */; };
+		8810A7371F6F89D20076AC9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEC61251821D17600B6DB37 /* Foundation.framework */; };
+		8810A7381F6F89D20076AC9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEC61271821D17600B6DB37 /* CoreGraphics.framework */; };
+		8810A7391F6F89D20076AC9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEC61291821D17600B6DB37 /* UIKit.framework */; };
 		CB8763551861E9398CFC8428 /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876438D25C52E9455F30EB /* CTFeedbackCellItem.m */; };
 		CB876D012CED040B497A28CF /* CTFeedbackCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876438D25C52E9455F30EB /* CTFeedbackCellItem.m */; };
 		CB876FE09FF1D6E4370A491A /* NSBundle+CTFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = CB876691CB3B7AC00E58896D /* NSBundle+CTFeedback.m */; };
@@ -101,6 +119,9 @@
 		6AEC61851821FBF800B6DB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/CTFeedbackLocalizable.strings; sourceTree = "<group>"; };
 		6AEE428F189A10FB009C0138 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CTFeedbackLocalizable.strings"; sourceTree = "<group>"; };
 		788BC1F218AF8A8E0071B37C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/CTFeedbackLocalizable.strings; sourceTree = "<group>"; };
+		8810A71D1F6F88700076AC9C /* CTFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8810A71F1F6F88700076AC9C /* CTFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFeedback.h; sourceTree = "<group>"; };
+		8810A7201F6F88700076AC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB02360E1BAF562100B90D19 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/Main_iPhone.strings"; sourceTree = "<group>"; };
 		CB02360F1BAF562100B90D19 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/Main_iPad.strings"; sourceTree = "<group>"; };
 		CB0236101BAF562100B90D19 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fa-IR"; path = "fa-IR.lproj/CTFeedbackLocalizable.strings"; sourceTree = "<group>"; };
@@ -139,6 +160,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8810A7191F6F88700076AC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810A7361F6F89D20076AC9C /* MessageUI.framework in Frameworks */,
+				8810A7371F6F89D20076AC9C /* Foundation.framework in Frameworks */,
+				8810A7381F6F89D20076AC9C /* CoreGraphics.framework in Frameworks */,
+				8810A7391F6F89D20076AC9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +181,7 @@
 				6AEC615D1821D18D00B6DB37 /* CTFeedback */,
 				6AEC612B1821D17600B6DB37 /* CTFeedbackDemo */,
 				6AEC614D1821D17600B6DB37 /* CTFeedbackDemoTests */,
+				8810A71E1F6F88700076AC9C /* CTFeedback */,
 				6AEC61241821D17600B6DB37 /* Frameworks */,
 				6AEC61231821D17600B6DB37 /* Products */,
 			);
@@ -159,6 +192,7 @@
 			children = (
 				6AEC61221821D17600B6DB37 /* CTFeedbackDemo.app */,
 				6AEC61461821D17600B6DB37 /* CTFeedbackDemoTests.xctest */,
+				8810A71D1F6F88700076AC9C /* CTFeedback.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,7 +293,27 @@
 			path = ../Resources;
 			sourceTree = "<group>";
 		};
+		8810A71E1F6F88700076AC9C /* CTFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				8810A71F1F6F88700076AC9C /* CTFeedback.h */,
+				8810A7201F6F88700076AC9C /* Info.plist */,
+			);
+			path = CTFeedback;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8810A71A1F6F88700076AC9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810A7211F6F88700076AC9C /* CTFeedback.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6AEC61211821D17600B6DB37 /* CTFeedbackDemo */ = {
@@ -297,6 +351,24 @@
 			productReference = 6AEC61461821D17600B6DB37 /* CTFeedbackDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8810A71C1F6F88700076AC9C /* CTFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8810A7241F6F88700076AC9C /* Build configuration list for PBXNativeTarget "CTFeedback" */;
+			buildPhases = (
+				8810A7181F6F88700076AC9C /* Sources */,
+				8810A7191F6F88700076AC9C /* Frameworks */,
+				8810A71A1F6F88700076AC9C /* Headers */,
+				8810A71B1F6F88700076AC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTFeedback;
+			productName = CTFeedback;
+			productReference = 8810A71D1F6F88700076AC9C /* CTFeedback.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -309,6 +381,10 @@
 				TargetAttributes = {
 					6AEC61451821D17600B6DB37 = {
 						TestTargetID = 6AEC61211821D17600B6DB37;
+					};
+					8810A71C1F6F88700076AC9C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -342,6 +418,7 @@
 			targets = (
 				6AEC61211821D17600B6DB37 /* CTFeedbackDemo */,
 				6AEC61451821D17600B6DB37 /* CTFeedbackDemoTests */,
+				8810A71C1F6F88700076AC9C /* CTFeedback */,
 			);
 		};
 /* End PBXProject section */
@@ -367,6 +444,13 @@
 			files = (
 				6AEC61521821D17600B6DB37 /* InfoPlist.strings in Resources */,
 				6AEC61871821FBF800B6DB37 /* CTFeedbackLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8810A71B1F6F88700076AC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +482,26 @@
 				6A3F55531823243300217253 /* CTFeedbackTopicsViewController.m in Sources */,
 				CB8763551861E9398CFC8428 /* CTFeedbackCellItem.m in Sources */,
 				CB876FF2E2DDFB54569C1BC8 /* NSBundle+CTFeedback.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8810A7181F6F88700076AC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8810A7251F6F89C20076AC9C /* CTFeedbackViewController.h in Sources */,
+				8810A7261F6F89C20076AC9C /* CTFeedbackViewController.m in Sources */,
+				8810A7271F6F89C20076AC9C /* CTFeedbackCell.h in Sources */,
+				8810A7281F6F89C20076AC9C /* CTFeedbackCell.m in Sources */,
+				8810A7291F6F89C20076AC9C /* CTFeedbackCellItem.m in Sources */,
+				8810A72A1F6F89C20076AC9C /* CTFeedbackCellItem.h in Sources */,
+				8810A72B1F6F89C20076AC9C /* CTFeedbackTopicsViewController.h in Sources */,
+				8810A72C1F6F89C20076AC9C /* CTFeedbackTopicsViewController.m in Sources */,
+				8810A72D1F6F89C20076AC9C /* NSBundle+CTFeedback.m in Sources */,
+				8810A72E1F6F89C20076AC9C /* NSBundle+CTFeedback.h in Sources */,
+				8810A72F1F6F89C20076AC9C /* PlatformNames.plist in Sources */,
+				8810A7301F6F89C20076AC9C /* CTFeedback.h in Sources */,
+				8810A7311F6F89C20076AC9C /* Info.plist in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +729,94 @@
 			};
 			name = Release;
 		};
+		8810A7221F6F88700076AC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CTFeedback/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.caph.CTFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8810A7231F6F88700076AC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = CTFeedback/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.caph.CTFeedback;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,6 +843,15 @@
 			buildConfigurations = (
 				6AEC615B1821D17600B6DB37 /* Debug */,
 				6AEC615C1821D17600B6DB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8810A7241F6F88700076AC9C /* Build configuration list for PBXNativeTarget "CTFeedback" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8810A7221F6F88700076AC9C /* Debug */,
+				8810A7231F6F88700076AC9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
